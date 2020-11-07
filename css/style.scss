@@ -240,6 +240,7 @@ header{
   opacity: 1;
   transition: left .2s linear;
   visibility: visible;
+  overflow-y:auto;
 
 }
 .header-contacts-block {
@@ -1471,6 +1472,7 @@ footer{
   text-align: center;
   white-space: nowrap;
   background: rgba(0,0,0,.3);
+  overflow-y:auto;
   .banner-right-block{
     background: rgba(150, 0, 79, 1);
   }
@@ -1478,7 +1480,9 @@ footer{
 .popup-content{
     position: relative;
     font-size: 25px;
-    margin: 5vh auto;
+    left: 50%;
+    top:50%;
+    transform:translate(-50%, -50%);
     padding: 30px 15px;
     text-align: center;
     -webkit-box-shadow: 0 0 20px rgba(0,0,0,.4);
